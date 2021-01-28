@@ -1,0 +1,81 @@
+ipmctl (02.00.00.3844+ds-1) unstable; urgency=medium
+
+  * New upstream bugfix release.
+ -- Brian J. Murrell <brian.murrell@intel.com>  Thu, 28 Jan 2021 13:46:48 -0500
+
+ipmctl (02.00.00.3774+ds-1) unstable; urgency=medium
+
+  * New upstream bugfix release.
+  * Update symbols (changed ones are not public API).
+
+ -- Adam Borowski <kilobyte@angband.pl>  Tue, 16 Jun 2020 06:26:28 +0200
+
+ipmctl (02.00.00.3764+ds-1) unstable; urgency=medium
+
+  * New upstream minor release; bumps supported Barlow Pass up to 2.05.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Tue, 12 May 2020 15:13:28 +0200
+
+ipmctl (02.00.00.3759+ds-1) unstable; urgency=medium
+
+  * New upstream release -- official 2.0.
+  * Update symbols.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Mon, 27 Apr 2020 21:10:39 +0200
+
+ipmctl (02.00.00.3722+ds-1) unstable; urgency=medium
+
+  * New upstream snapshot.
+  * Update symbols.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Mon, 02 Mar 2020 14:13:28 +0100
+
+ipmctl (02.00.00.3709+ds-1) unstable; urgency=medium
+
+  * A new upstream snapshot.
+    + Fixes bad parsing of v0.1 PMTT data.  Closes: #951075.
+  * Update symbols.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Mon, 10 Feb 2020 23:44:47 +0100
+
+ipmctl (02.00.00.3673+ds-3) unstable; urgency=medium
+
+  * Purge libipmctl3's conffile, unbreaking logrotate.  Closes: #949850.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sun, 26 Jan 2020 19:39:29 +0100
+
+ipmctl (02.00.00.3673+ds-2) unstable; urgency=medium
+
+  * Upload the beta to unstable.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Tue, 21 Jan 2020 15:18:53 +0100
+
+ipmctl (02.00.00.3673+ds-1) experimental; urgency=medium
+
+  * New upstream alpha release.
+  * Include library symbols.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Sun, 15 Dec 2019 03:48:05 +0100
+
+ipmctl (02.00.00.3658+ds-1) experimental; urgency=medium
+
+  * New upstream alpha release.
+  * Drop safeclib from B-Deps.
+  * The ipmctl-monitor daemon package is no more.
+  * Bump lib package version for soname to libipmctl4.
+  * Follow upstream renaming of the lib's logfile logrotate config.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Thu, 05 Dec 2019 19:17:03 +0100
+
+ipmctl (02.00.00.3474+ds-2) unstable; urgency=medium
+
+  * Rebuild on buildds.
+  * Minor copyright improvements.
+
+ -- Adam Borowski <kilobyte@angband.pl>  Tue, 13 Aug 2019 12:14:30 +0200
+
+ipmctl (02.00.00.3474+ds-1) unstable; urgency=low
+
+  * Initial release (closes: #931643)
+
+ -- Adam Borowski <kilobyte@angband.pl>  Mon, 08 Jul 2019 19:52:35 +0200
