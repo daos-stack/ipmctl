@@ -14,7 +14,11 @@ BuildRequires:	cmake
 BuildRequires:	python
 BuildRequires:	gcc
 BuildRequires:	gcc-c++
+%if (0%{?suse_version} >= 1500)
+BuildRequires:	asciidoc
+%else
 BuildRequires:	asciidoctor
+%endif
 Conflicts:	ixpdimm-cli < 01.00.00.3000
 
 %description
